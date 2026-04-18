@@ -19,7 +19,7 @@ It also includes multiple execution modes to compare performance:
 
 ## Preview
 
-![Boid simulation preview](https://user-images.githubusercontent.com/19228971/170995953-f7a6fd86-b46c-4d9f-89d8-4b71b1fdddbd.gif)
+<video src="https://github.com/user-attachments/assets/REPLACE_WITH_YOUR_VIDEO_ID" controls muted loop playsinline width="900"></video>
 
 ## Tech Stack
 
