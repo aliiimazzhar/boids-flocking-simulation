@@ -1,0 +1,38 @@
+#pragma once
+
+#include <vector>
+
+#include <glm/glm.hpp>
+
+#include <boidSimulation/Simulation/Boid.h>
+#include <boidSimulation/Settings/config.h>
+
+class Obstacle
+{
+
+friend class Flock;
+
+public:
+   
+   Obstacle(const unsigned id);
+   Obstacle(const unsigned id, const glm::vec2& center);
+   Obstacle(const unsigned id, const glm::vec2& center, float radius);
+   bool doesCollide(const std::vector<Obstacle>& obstacles) const;
+   glm::vec3* getColor();
+   glm::vec2* getPos(const unsigned int i);
+   glm::vec2 getCenter() const;
+   float getRadius() const;
+   
+private:
+
+   // All vertices that compose the triangle
+   glm::vec2 m_pos[config::N_TRIANG_PER_CIRCLE][3];
+   glm::vec2 m_center;
+   float m_radius;
+   glm::vec3 m_color[3];
+   unsigned m_id;
+
+   // ========================== Methods ==========================
+
+   void createCircleTriangles();
+};

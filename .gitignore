@@ -1,0 +1,44 @@
+# Build directories
+build/
+bin/
+cmake-build-*/
+out/
+
+# CMake artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+install_manifest.txt
+
+# C and C++ artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dll
+*.dylib
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.out
+*.exe
+
+# Runtime/config artifacts
+imgui.ini
+
+# IDE/editor artifacts
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
