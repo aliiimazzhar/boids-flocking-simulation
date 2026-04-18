@@ -19,7 +19,11 @@ It also includes multiple execution modes to compare performance:
 
 ## Preview
 
-<video src="./assets/demo.mp4" controls muted loop playsinline width="900"></video>
+Demo video:
+
+- Watch on GitHub (raw): https://github.com/aliiimazzhar/boids-flocking-simulation/raw/main/assets/demo.mp4
+- Direct file in repository: ./assets/demo.mp4
+
 
 ## Tech Stack
 
