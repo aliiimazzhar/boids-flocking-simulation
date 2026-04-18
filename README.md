@@ -19,7 +19,7 @@ It also includes multiple execution modes to compare performance:
 
 ## Preview
 
-<video src="https://github.com/user-attachments/assets/REPLACE_WITH_YOUR_VIDEO_ID" controls muted loop playsinline width="900"></video>
+<video src="./assets/demo.mp4" controls muted loop playsinline width="900"></video>
 
 ## Tech Stack
 
